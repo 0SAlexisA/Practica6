@@ -1,0 +1,60 @@
+
+.card-container {
+    display: flex; /* Configuración para alinear elementos en fila */
+    flex-wrap: wrap; /* Permite que las tarjetas se ajusten en nuevas filas */
+    gap: 16px; /* Espaciado entre tarjetas */
+    justify-content: center; /* Centra el contenido horizontalmente */
+    padding: 20px; /* Espaciado interno para todo el contenedor */
+    background-color: #f9f9f9; /* Color de fondo opcional */
+}
+
+/* Estilo para cada tarjeta individual */
+.card {
+    width: 200px; /* Anchura fija de las tarjetas */
+    border: 1px solid #ddd; /* Borde suave */
+    border-radius: 8px; /* Bordes redondeados */
+    padding: 16px; /* Espaciado interno */
+    text-align: center; /* Centrar texto y elementos */
+    background: #fff; /* Fondo blanco */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para tarjetas */
+    transition: transform 0.3s ease; /* Efecto de hover */
+}
+
+/* Efecto al pasar el mouse por encima */
+.card:hover {
+    transform: scale(1.05); /* Escala ligera */
+}
+
+/* Estilo de la imagen dentro de cada tarjeta */
+.card img {
+    width: 100px; /* Tamaño uniforme para todas las imágenes */
+    height: 100px;
+    object-fit: contain; /* Ajusta la imagen sin deformarla */
+    margin-bottom: 16px; /* Espaciado debajo de la imagen */
+}
+
+/* Texto principal en la tarjeta */
+.card h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+/* Información adicional en la tarjeta */
+.card p {
+    font-size: 14px;
+    color: #666;
+    margin: 4px 0;
+}
+
+/* Enlace */
+.card a {
+    display: inline-block;
+    margin-top: 8px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
