@@ -26,6 +26,7 @@ const Carousel = () =>{
             <img src="diapositiva3.jpg" alt="Slide 3" className="slide"/>
         </SwiperSlide>
 
+
     </Swiper>
 )
 };
